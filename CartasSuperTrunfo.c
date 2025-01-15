@@ -20,3 +20,22 @@ int main() {
 
     return 0;
 }
+
+
+#include <stdio.h>
+ 
+int main() {
+    int Cidade = ;
+    float Populacao = ;
+    double Area = ;
+    char PIB = ;
+    char Pontos Turisticos[20] = ;
+ 
+    printf("Cidade: %s \n", cidade);
+    printf("População: %f \n", populacao);
+    printf("Saldo Bancário: %.2f reais\n", saldoBancario);
+    printf("Inicial do Nome: %c\n", inicial);
+    printf("Nome: %s\n", nome);
+ 
+    return 0;
+}
