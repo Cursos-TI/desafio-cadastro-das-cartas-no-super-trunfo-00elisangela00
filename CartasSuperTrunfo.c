@@ -4,28 +4,30 @@
 int main() {
     printf("Pronto para jogar Super Trunfo? Vamos lá!\n");
 
-    char Cidade;
-    float Populacao;
-    float Area;
-    float PIB;
-    int Pontos_Turisticos;
+    char cidade[30];
+    float populacao;
+    float area;
+    float pib;
+    int pontos_turisticos;
  
-    printf("Escolha uma cidade:\n");
-    scanf("%s", &Cidade);
-
-    printf("Qual a população?\n");
-    scanf("%f", &Populacao);
-
+    printf("Escolha uma Cidade:\n");
+    scanf("%s",cidade);
+    printf("Qual a População?\n");
+    scanf("%f", &populacao);
     printf("Qual a Área?\n");
-    scanf("%f", &Area);
-
-    printf("Valor do PIB?\n", PIB);
-    scanf("%f", &PIB);
-    
-    printf("Quantidade de Pontos Turisticos?\n", Pontos_Turisticos);
-    scanf("%d", &Pontos_Turisticos);
+    scanf("%f", &area);
+    printf("Valor do PIB?\n");
+    scanf("%f", &pib);
+      printf("Quantidade de Pontos Turisticos?\n");
+    scanf("%d", &pontos_turisticos);
 
     printf("Esta é sua carta:\n");
+    printf("Cidade: %s \n", cidade);
+    printf("População: %f\n", populacao);
+    printf("Área: %f\n", area);
+    printf("PIB: %f\n", pib);
+    printf("Pontos Turisticos: %d\n", pontos_turisticos);
+
 
     return 0;
 }
